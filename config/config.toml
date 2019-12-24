@@ -1,0 +1,25 @@
+[application]
+#默认模块名
+DefaultModule = "home"
+
+#框架调试模式
+AppDebug = true
+
+#
+SessionCoolieName = "sessioncookie"
+
+# session保持时间(单位:小时)
+SessionExpires = 24
+
+#允许上传文件的大小(单位:M)
+UploadSize = 50
+
+#允许上传文件的后缀
+UploadSuffixExists = ".jpg,.png,.jpge,.gif,.bmp,.rar,.7z,.zip,.txt,.ini"
+
+[server]
+Domain = "localhost"
+Port   = "8080"
+
+[pagination]
+PageSize = 20
